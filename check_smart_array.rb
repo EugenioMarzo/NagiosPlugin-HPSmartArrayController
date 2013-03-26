@@ -48,7 +48,7 @@ end
 
 
 check_array.split("\n").each do |line|
- if line  =~ /^.*array.*$|^.*logicaldrive.*$|^.*physicaldrive.*$/   and  not (line =~ /.*OK.*/  or  line =~  /.*Unused.*/ )
+ if line  =~ /^.*logicaldrive.*$|^.*physicaldrive.*$/   and  not line =~ /.*OK.*/ 
     puts line
     exit EXIT_WARNING
   end
