@@ -51,6 +51,15 @@ Check of controller status
 for exit status OK all should be OK
 
 
+check configuration
+===================
+        Check command*     	 
+        Command view	 =>  check_nrpe
+        $ARG1$	 check_smart_array
+        $ARG2$	 -a '-s 4'
 
 
-
+nrpe.cfg
+========
+        ### Check clustat for HP Smart Array Controller ###
+        command[check_smart_array]=sudo /usr/local/nagios/plugins/check_smart_array.rb $ARG1$ $ARG2$
