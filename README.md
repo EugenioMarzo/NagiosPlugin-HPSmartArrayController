@@ -13,7 +13,7 @@ Usage: check_smart_array --slot SLOT_NUMBER
 
 #status OK
 [root@myserver plugins]# ./check_smart_array --slot 4
-Smart Array OK
+ Smart Array OK
 
 
 
