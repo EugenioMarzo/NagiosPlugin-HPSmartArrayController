@@ -24,9 +24,9 @@ Check of array status
 Simple check inside this output:
 root@myserver plugins]#  hpacucli ctrl  slot=4  show config | head
 
-Smart Array P812 in Slot 4                (sn: xxxxxxxxxxxxxxx)
+      Smart Array P812 in Slot 4                (sn: xxxxxxxxxxxxxxx)
 
-   array A (SAS, Unused Space: 0  MB)
+      array A (SAS, Unused Space: 0  MB)
 
 
       logicaldrive 1 (136.7 GB, RAID 1, OK)
@@ -42,10 +42,10 @@ Check of controller status
 
 [root@myserver plugins]#  hpacucli ctrl  slot=4  show status
 
-Smart Array P812 in Slot 4
-   Controller Status: OK
-   Cache Status: OK
-   Battery/Capacitor Status: OK
+     Smart Array P812 in Slot 4
+     Controller Status: OK
+     Cache Status: OK
+     Battery/Capacitor Status: OK
 
 
 for exit status OK all should be OK
