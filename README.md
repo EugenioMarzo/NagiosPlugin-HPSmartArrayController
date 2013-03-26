@@ -63,3 +63,11 @@ nrpe.cfg
 ========
         ### Check clustat for HP Smart Array Controller ###
         command[check_smart_array]=sudo /usr/local/nagios/plugins/check_smart_array.rb $ARG1$ $ARG2$
+        
+SUDO
+====
+
+nagios ALL=NOPASSWD:/usr/local/nagios/plugins/check_smart_array.rb
+
+
+
